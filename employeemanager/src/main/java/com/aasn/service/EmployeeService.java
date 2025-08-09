@@ -1,5 +1,6 @@
 package com.aasn.service;
 
+import com.aasn.exceptions.UserNotFoundException;
 import com.aasn.model.Employee;
 import com.aasn.repositories.EmployeeRepo;
 import org.springframework.beans.factory.annotation.Autowired;
